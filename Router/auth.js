@@ -5,9 +5,7 @@ require('../DB/connection')
 const User = require('../model/userSchema')
 const newVoter = require('../model/voterListSchema')
 const Voter = require('../model/voteRecordSchema')
-router.get('/', (req, res) => {
-    res.send('testing server')
-});
+
 
 router.post('/search', async function(req, res) {
     try {
