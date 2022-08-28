@@ -2,7 +2,7 @@
     "scripts": {
         "start": "node app.js",
         "dev": "node app.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
     },
     "dependencies": {
         "dotenv": "^16.0.1",
