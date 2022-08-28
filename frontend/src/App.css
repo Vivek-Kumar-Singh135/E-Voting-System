@@ -1,0 +1,261 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.body-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form {
+    width: 500px;
+    display: inline-block;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #38add4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-container {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    height: 450px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.register-btn {
+    margin-left: 25%;
+    width: 80px;
+    height: 25px;
+    background-color: #24b549;
+    color: white;
+    border-radius: 5px;
+}
+
+.register-img-div {
+    display: grid;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.register-img {
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.state-change-btn {
+    background-color: #38add4;
+    border: #38add4;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.header {
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: coral;
+}
+
+.header-img-div {
+    padding: 5px;
+}
+
+.header-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.communication {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: chartreuse;
+    height: 162px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voter-page-container {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 2fr;
+    align-content: space-between;
+}
+
+.voter-details {
+    height: 450px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.candidate-details {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    height: 435px;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-icon-div {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-details {
+    padding-left: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vote-div {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.logout-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.logout-btn {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.candidate {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr 1fr;
+    grid-column-gap: 10px;
+    justify-content: space-between;
+    border: 2px solid black;
+    align-items: center;
+    background-color: floralwhite;
+}
+
+.candidate-name {
+    text-align: center;
+}
+
+.party-logo-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.party-logo {
+    width: 80px;
+    height: 80px;
+}
+
+#vote-btn1 {
+    background-color: green;
+    border-radius: 45%;
+}
+
+#vote-btn2 {
+    background-color: green;
+    border-radius: 45%;
+}
+
+#vote-btn3 {
+    background-color: green;
+    border-radius: 45%;
+}
+
+#vote-btn4 {
+    background-color: green;
+    border-radius: 45%;
+}
+
+#vote-btn5 {
+    background-color: green;
+    border-radius: 45%;
+}
+
+.alert {
+    color: red;
+}
+
+.success {
+    color: #24b549;
+}
+
+#success {
+    font-style: italic;
+    font-size: large;
+}
